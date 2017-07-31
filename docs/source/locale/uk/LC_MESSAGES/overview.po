@@ -153,13 +153,7 @@ msgstr ""
 "об’єкт був створений. Ця відповідь буде мати data поле на верхньому рівні, "
 "яке вміщуватиме повну інформацію про новий аукціон, включно з ID."
 
-msgid ""
-"Organizer can't edit procedure's significant properties (*Auction.value*, "
-"etc.)."
-msgstr ""
-"Організатор не може редагувати суттєвих властивостей процедури, наприклад, "
-"*Auction.value*."
-
+#: ../../source/overview.rst:19
 msgid ""
 "The only date Organizer has to provide is *Tender.auctionPeriod.startDate*, "
 "the rest will be calculated automatically."
@@ -181,16 +175,46 @@ msgstr ""
 " повертає JSON вміст у всіх свої відповідях, включно з помилками. "
 "Підтримується лише UTF-8 кодування і для запитів, і для відповідей."
 
+#: ../../source/overview.rst:6
 msgid "There are two procedures:"
 msgstr "Є дві процедури:"
 
+#: ../../source/overview.rst:8
 msgid "dgfOtherAssets - sale of the insolvent bank property."
 msgstr "dgfOtherAssets - продаж майна банків, що ліквідуються."
 
+#: ../../source/overview.rst:10
 msgid "dgfFinancialAssets - sale of the creditor claim right."
 msgstr "dgfFinancialAssets - продаж права вимоги за кредитними договорами."
 
+#: ../../source/overview.rst:23
 msgid ""
 "The items within an auction are allowed to be from different CAV groups."
 msgstr "Аукціон може містити елементи з різних CAV груп."
 
+#: ../../source/overview.rst:20
+msgid ""
+"Organizer can edit procedure's significant properties such as *value.amount*, *guarantee.amount* "
+"and *minimalStep.amount*, by descreasing these values. The inturn increase is unavailable."
+msgstr ""
+"Організатор може редагувати наступні поля: *value.amount*, *guarantee.amount* та *minimalStep.amount*, "
+"знижуючи вказану вартість. Збільшити подані значення неможливо."
+
+#: ../../source/overview.rst:21
+msgid ""
+"Properties such as *.currency* and *.valueAddedTaxIncluded* can't be edited."
+msgstr ""
+"Поля *.currency* та *.valueAddedTaxIncluded* редагувати неможливо."
+
+#: ../../source/overview.rst:22
+msgid ""
+"*value.amount* can be reduced per 50% or less for once. The greater reduction is unavailable within the system."
+msgstr ""
+"Організатору торгів дозволяється знижувати вартість лоту не більше ніж на 50%  від поточної вартості (value.amount) "
+"за один раз. У разі зниження вартості більше ніж на 50%, система видаватиме помилку."
+
+#: ../../source/overview.rst:23
+msgid ""
+"Such properties as *guarantee.amount* and *minimalStep.amount* are not restricted within percentage descrease."
+msgstr ""
+"Для полів *guarantee.amount* і *minimalStep.amount* відсоткового обмеження на зниження немає."

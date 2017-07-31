@@ -17,7 +17,10 @@ Features
 * Procedure can be switched from *draft* status to *active.tendering*.
 * During *active.tendering* period participants can ask questions, submit proposals, and upload documents.
 * The only date Organizer has to provide is *Tender.auctionPeriod.startDate*, the rest will be calculated automatically.
-* Organizer can't edit procedure's significant properties (*Auction.value*, etc.).
+* Organizer can edit procedure's significant properties such as *value.amount*, *guarantee.amount* and *minimalStep.amount*, by descreasing these values. The inturn increase is unavailable.
+* Properties such as *.currency* and *.valueAddedTaxIncluded* can't be edited. 
+* *value.amount* can be reduced per 50% or less for once. The greater reduction is unavailable within the system.
+* Such properties as *guarantee.amount* and *minimalStep.amount* are not restricted within percentage descrease.
 * There is obligatory participant qualification (*Bid.selfQualified*) via guarantee payment.
 * The only currency (*Value.currency*) for this procedure is hryvnia (UAH).
 * The items within an auction are allowed to be from different CAV groups.
